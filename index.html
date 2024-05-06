@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CatPhotoApp </h1>
+    <h2>Cat Photos</h2>
+    <p>See more <a href="your_gallery_url">cat photos</a> in our gallery</p>
+    <img src="./cat1.webp" alt="">
+    <h1>Cat Lists</h1>
+    <h2>Things cats love</h2>
+    <ul>
+       <li>cat nip</li> 
+        <li>laser pointers</li>
+        <li>lasagna</li>
+        <img src="./11.webp"alt="">
+        <p>Cats <em>love</em> lasagna</p>
+    </ul>
+    <h1>Top 3 things cats hate:</h1>
+    <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+    </ol>
+    <img src="./cat2.webp" alt="">
+    <p>Cats <strong>hate</strong> other cats</p>
+    <h1>Cat Form</h1>
+    <fieldset>
+        <legend>Is your cat an indoor or outdoor cat?</legend>
+        <input type="radio" id="indoor" name="catType" value="indoor">
+        <label for="indoor">Indoor</label><br>
+        <input type="radio" id="outdoor" name="catType" value="outdoor">
+        <label for="outdoor">Outdoor</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>What's your cat's personality?</legend>
+        <input type="checkbox" id="loving" name="catPersonality" value="loving">
+        <label for="loving">Loving</label>
+        <input type="checkbox" id="lazy" name="catPersonality" value="lazy">
+        <label for="lazy">Lazy</label>
+        <input type="checkbox" id="energetic" name="catPersonality" value="energetic">
+        <label for="energetic">Energetic</label><br>
+    </fieldset>
+    <form action="submit-cat-photo.php" method="post">
+        <label for="catPhotoUrl">Cat Photo URL:</label>
+        <input type="text" id="catPhotoUrl" name="catPhotoUrl">
+        <input type="submit" value="Submit">
+    </form>
+    <p>No Copyright -<a href="freeCodeCamp.org">freeCodeCamp.org</a></p>
+</p> 
+</body>
+</html>
